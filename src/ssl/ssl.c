@@ -12,7 +12,6 @@
 
 #include "ft_ssl.h"
 #include "base64.h"
-#include "des.h"
 #include "md5.h"
 #include "sha256.h"
 #include "sha512.h"
@@ -20,10 +19,6 @@
 t_ssl_command g_ssl_commands[] =
 {
 	{"base64", &base64, CIPHER},
-	{"des", &des, CIPHER},
-	{"des-ecb", &des, CIPHER},
-	{"des-cbc", &des, CIPHER},
-	{"des3", &des, CIPHER},
 	{"md5", &md5, DIGEST},
 	{"sha256", &sha256, DIGEST},
 	{"sha512", &sha512, DIGEST},

@@ -6,13 +6,6 @@ SRC_FILES =			ssl/ssl.c \
 					base64/base64_padding.c \
 					base64/base64_parsing.c \
 					base64/base64_utils.c \
-					des/des.c \
-					des/des_core.c \
-					des/des_keys.c \
-					des/des_parsing.c \
-					des/des_read.c \
-					des/des_hex_utils.c \
-					des/des_utils.c \
 					md5/md5.c \
 					md5/md5_core.c \
 					md5/md5_read.c \

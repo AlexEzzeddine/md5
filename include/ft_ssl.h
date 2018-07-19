@@ -37,7 +37,7 @@ typedef struct			s_ssl_command
 	t_ssl_command_type	type;
 }						t_ssl_command;
 
-# define COMMANDS_SIZE 9
+# define COMMANDS_SIZE 5
 
 void					ssl_print_standard_commands(void);
 void					ssl_print_digest_commands(void);
